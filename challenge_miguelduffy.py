@@ -25,7 +25,7 @@ def substaction_of_diagonals(list_of_lists):
     sum_first_diagonal = 0
     sum_second_diagonal = 0
     start_index_first_diagonal = 0
-    start_index_second_diagonal = len(list_of_lists)-1
+    start_index_second_diagonal = -1
 
     for number in list_of_lists:
         sum_first_diagonal += number[start_index_first_diagonal]
