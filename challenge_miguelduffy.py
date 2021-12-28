@@ -21,7 +21,7 @@ list_of_lists = [[300,12,55],
                  [15,3000,400], 
                  [88,75,60]]
 
-def sum_of_diagonals(list_of_lists):
+def substaction_of_diagonals(list_of_lists):
     sum_first_diagonal = 0
     sum_second_diagonal = 0
     start_index_first_diagonal = 0
@@ -36,7 +36,7 @@ def sum_of_diagonals(list_of_lists):
     print("La resta de las diagonales es: {}".format(sum_first_diagonal - 
     sum_second_diagonal))
 
-sum_of_diagonals(list_of_lists)
+substaction_of_diagonals(list_of_lists)
 
 """
 ---Ejercicio 3---
